@@ -1,0 +1,308 @@
+@import url(https://fonts.googleapis.com/css?family=Material+Icons);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Quicksand;
+
+}
+
+.containerCabecalho{
+    max-width: 3840px;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+.containerYD{
+    max-width: 1280px;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+.clicavel:hover{
+    cursor: pointer;
+}
+
+.botoes{
+    display: flex;
+    left: auto;
+    justify-content: flex-end;
+    margin-right: 5px;
+
+}
+
+.botao:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+    
+}
+
+.botao{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    text-align: center;
+    text-transform: none;
+    text-decoration: none;
+    background: #0275D8;
+    color: #FFFFFF;
+    border-radius: 4px;
+    min-height: 42px;
+    min-width: 144px;
+    font-size: 16px;
+    letter-spacing: +0.5px;
+    font-weight: 600;
+
+    transition-timing-function: ease-in-out;
+    transition: box-shadow 0.5s;
+}
+
+.cabecalho{
+    /* position: relative; */
+    margin: 0;
+    height:auto;
+    padding-bottom: 40px;
+    left: 0px;
+    right: 0px;
+    background: linear-gradient(180deg, #37DB5D 0%, #44F16C 100%);
+}
+
+.logo{
+    /* position: relative; */
+    width: auto;
+    height: auto;
+    text-align: center;
+    left: center;
+    top: 40px;
+}
+
+.titulo1{
+    /* position: relative; */
+    width: auto;
+    height: auto;
+    left: center;
+    margin-top: 40px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+
+    color: #000000;
+
+}
+.titulo2{
+    /* position: relative; */
+    width: auto;
+    height: auto;
+    left: center;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.divBusca{
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    height: 54px;
+    left: auto;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.txtBusca{
+    text-align: start;
+    background-color:transparent;
+    padding: 28px 5px 10px 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size:18px;
+    border: 0 none;
+    height:36px;
+    width: 90%; 
+  
+}
+.txtBusca:hover{
+    cursor: text;
+}
+
+.txtBusca:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.btnBusca{
+    text-align: right;
+    font-size:36px;
+    height:36px;
+    margin-left: 10px;
+    margin-right: 10px; 
+    padding: 10px; 
+    max-width: 10%;
+}
+
+.filtro{
+    height: auto;
+    max-width: 160px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px auto 5px 5px;
+    display: flex;
+}
+
+
+#btnFiltro{
+    display: inline-block;
+    font-size: 26px;
+}
+.txtFiltro{
+    display: inline-block;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    margin: auto auto auto 2px;
+    left: auto;
+    text-align: center;
+    font-size: 16px;
+}
+
+.eventos{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    align-items: center;
+
+}
+.eventosHover{
+    position: relative;
+    width: auto;
+    min-width: 400px;
+    align-items: center;
+    margin: auto;
+    transition-timing-function: ease-in-out;
+    transition: box-shadow 0.5s;
+}
+
+.conteudo{
+    display: inline-flex;
+    grid-template-columns: 20px;
+    grid-gap: 20px;
+    align-items: center;
+    
+}
+
+.tituloCard{
+    font-style: normal;
+    font-weight: bold;
+    /* background:tomato; */
+    margin: 17px 14px 10px 0px;
+    font-size: 20px;
+    line-height: 22px;
+    min-height: 90px;
+    min-width: 210px;   
+}
+
+.infoCard{
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.eventos > div {
+
+    flex: 1 1 400px;
+    max-width: 400px;
+    margin: 25px auto;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(160, 160, 160, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.13);
+
+}
+
+.tag{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;  
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    padding: 0px 10px 0px 10px;
+    border-radius: 3px;
+}
+
+.tagMiddle{
+    display: flex;
+}
+
+.eventosHover:hover {
+    cursor: pointer;
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.3);
+    opacity: 100%;
+}
+
+.eventosHover:hover .imagemEvento{
+    opacity: 100%;
+}
+
+
+.imagemEvento{
+    position: relative;
+    margin: 15px 0px 15px 14px;
+    width: 120px;
+    height: 120px;
+    border-radius: 4px;
+    box-align: left;
+    opacity: 77%;
+    transition-timing-function: ease-in-out;
+    transition: opacity 0.5s;
+}
+
+
+#icon{
+    color: #9D9D9D;
+    font-size: 16px;
+    line-height: 16px;
+    margin-right: 5px;
+}
+
+.menu{
+    margin: 90px auto 30px auto;
+}
+.menu ul {
+    font-size: 14px; 
+    margin: 5px auto 5px 5px; 
+}
+.menu ul li {display: inline; }
+
+.menu ul li a {
+    margin: 0 auto; 
+    margin-left: 0;
+    text-decoration: none; 
+    color: #000000;
+    padding: 0.1%;
+}
+
