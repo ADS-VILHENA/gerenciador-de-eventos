@@ -77,8 +77,7 @@
     width: auto;
     height: auto;
     text-align: center;
-    left: center;
-    top: 40px;
+    padding-top: 40px;
 }
 
 .titulo1{
